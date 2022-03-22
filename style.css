@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('https://wallpaperaccess.com/full/3968016.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    position: absolute;
+    width: 470px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    max-height: 100%;
+    padding: 30px 30px;
+    top: .4em;
+    left: 1em;
+    border-radius: 10px;
+    box-shadow: 20px 15px 20px 10px rgb(14, 14, 14);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0.5em;
+    text-shadow: 3px 3px 3px rgb(168, 54, 54);
+}
+
+.control label {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.control input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    border-radius: 3px;
+}
+
+.control textarea {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background: darkgreen;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.output {
+    position: absolute;
+    width: 470px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    max-height: 100%;
+    padding: 30px 30px;
+    top: .4em;
+    right: 2em;
+    border-radius: 10px;
+    box-shadow: 20px 15px 20px 10px rgb(14, 14, 14);
+    color: #fff;
+}
