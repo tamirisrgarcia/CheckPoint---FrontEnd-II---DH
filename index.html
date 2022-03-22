@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Filmes</title>
+  </head>
+  <body>
+    <section>
+      <div class="form-container">
+        <h1>Filmes</h1>
+        <form action="#" class="form">
+          <div class="control">
+            <label for="name">Nome do Filme</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="control">
+            <label for="gener">Gênero</label>
+            <input type="text" name="gener" id="gener" required/>
+          </div>
+          <div class="control">
+            <label for="poster">Pôster</label>
+            <input type="url" name="poster" id="poster" required />
+          </div>
+          <div class="control">
+            <label for="rating">Nota</label>
+            <input type="number" name="rating" id="rating" required />
+          </div>
+          <div class="control">
+            <label for="description">Descrição</label>
+            <textarea
+              type="text"
+              name="description"
+              id="description"
+              placeholder="Mensagem"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div> 
+      <div class="output"></div>
+    </section> 
+    <script src="./index.js"></script>
+  </body>
+</html>
