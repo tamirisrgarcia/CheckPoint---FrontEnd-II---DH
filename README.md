@@ -3,14 +3,10 @@
 <p>Curso: Certified Tech Developer</p> 
 <p>Digital House Brasil</p>
 
-<br>
-
 ## Detalhes projeto
 <p>Projeto desenvolvido para a disciplina de FrontEnd II.
 A aplicação consiste em um formulário que, ao ser preenchido, cria cards com as informações preenchidas.
 O entregável será uma página em HTML5, CSS3 e Javascript.</p>
-
-<br>
 
 ## Tecnologias Utilizadas
 <img align="left" alt="html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
