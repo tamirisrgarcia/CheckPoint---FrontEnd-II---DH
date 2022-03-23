@@ -5,31 +5,29 @@ window.onload = () => {
         e.preventDefault();
 
         const inpName = document.querySelector('#name');
-        const inpGener = document.querySelector('#gener');
+        const inpGender = document.querySelector('#gender');
         const inpRating = document.querySelector('#rating');
         const inpDescription = document.querySelector('#description');
         const inpImage = document.querySelector('#poster');
 
         const name = document.createElement('h2');
-        const gener = document. createElement('p');
+        const gender = document.createElement('p');
         const rating = document.createElement('p');
         const description = document.createElement('p');
         const img = document.createElement('img');
         img.classList.add('film_poster');
         
+        name.appendChild(document.createTextNode('Nome do filme: ' + inpName.value));
+        gender.appendChild(document.createTextNode('Gênero: ' + inpGender.value));
+        rating.appendChild(document.createTextNode('Nota: ' + inpRating.value));
+        description.appendChild(document.createTextNode('Descrição: ' + inpDescription.value));
 
-        
-        name.appendChild(document.createTextNode(inpName.value));
-        gener.appendChild(document.createTextNode(inpGener.value));
-        rating.appendChild(document.createTextNode(inpRating.value));
-        description.appendChild(document.createTextNode(inpDescription.value));  
         img.setAttribute('src', inpImage.value);
 
         const content = document.createElement('div');
-        content.classList.add('content-output');
 
         content.appendChild(name);
-        content.appendChild(gener);
+        content.appendChild(gender);
         content.appendChild(rating);
         content.appendChild(description);        
 
@@ -39,6 +37,7 @@ window.onload = () => {
         item.appendChild(content);
 
         const list = document.querySelector('.output');
+        list.style.display = 'block';
         list.appendChild(item);
 
         form.reset(); 
