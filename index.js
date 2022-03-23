@@ -11,7 +11,7 @@ window.onload = () => {
         const inpImage = document.querySelector('#poster');
 
         const name = document.createElement('h2');
-        const gener = document. createElement('p');
+        const gener = document.createElement('p');
         const rating = document.createElement('p');
         const description = document.createElement('p');
         const img = document.createElement('img');
@@ -19,10 +19,10 @@ window.onload = () => {
         
 
         
-        name.appendChild(document.createTextNode(inpName.value));
-        gener.appendChild(document.createTextNode(inpGener.value));
-        rating.appendChild(document.createTextNode(inpRating.value));
-        description.appendChild(document.createTextNode(inpDescription.value));  
+        name.appendChild(document.createTextNode('Nome do filme: ' + inpName.value));
+        gener.appendChild(document.createTextNode('Gênero: ' + inpGener.value));
+        rating.appendChild(document.createTextNode('Nota: ' + inpRating.value));
+        description.appendChild(document.createTextNode('Descrição: ' + inpDescription.value));  
         img.setAttribute('src', inpImage.value);
 
         const content = document.createElement('div');
@@ -39,6 +39,7 @@ window.onload = () => {
         item.appendChild(content);
 
         const list = document.querySelector('.output');
+        list.style.display = 'block';
         list.appendChild(item);
 
         form.reset(); 

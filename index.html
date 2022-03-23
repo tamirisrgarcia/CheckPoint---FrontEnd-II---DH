@@ -15,8 +15,8 @@
   </head>
   <body>
     <section>
+      <h1>Filmes</h1>
       <div class="form-container">
-        <h1>Filmes</h1>
         <form action="#" class="form">
           <div class="control">
             <label for="name">Nome do Filme</label>
@@ -28,7 +28,7 @@
           </div>
           <div class="control">
             <label for="poster">Pôster</label>
-            <input type="url" name="poster" id="poster" required />
+            <input type="text" name="poster" id="poster" required />
           </div>
           <div class="control">
             <label for="rating">Nota</label>
@@ -44,7 +44,9 @@
               required
             ></textarea>
           </div>
-          <button type="submit">Enviar</button>
+          <div class="control">
+            <button type="submit">Enviar</button>
+          </div>
         </form>
       </div> 
       <div class="output"></div>
