@@ -1,11 +1,12 @@
-# CheckPointI
-<p>Disciplina: Front end II</p>
+# CheckPoint
+<p>Disciplina: Front End II</p>
 <p>Curso: Certified Tech Developer</p> 
 <p>Digital House Brasil</p>
 
 # Detalhes projeto
-Projeto desenvolvido para a disciplina de FrontEnd II.
+<p>Projeto desenvolvido para a disciplina de FrontEnd II.
 A aplicação consiste em um formulário que, ao ser preenchido, cria cards com as informações preenchidas.
+O entregável será uma página em HTML5, CSS3 e Javascript.</p>
 
 # Participantes
 <p>Leonardo Martinez Belasques Gomes</p>
