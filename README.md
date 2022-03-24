@@ -21,5 +21,5 @@ O entregável será uma página em HTML5, CSS3 e Javascript.</p>
 <p>Leonardo Martinez Belasques Gomes</p>
 <p>Tamiris Rezende Garcia Costa</p>
 <p>Vinicius Bretzke</p>
-<p>Caroline Bert</p>
+<p>Caroline Bertoldo</p>
 
